@@ -5,13 +5,13 @@ header {
 
 h1 {
     border: 2px solid green;
-
+    display: inline;
     heght: 60px; /*altura da caixa*/
 }
 
 p {
     margin: 20px;
-
+    display: inline;/*faz o elemento ficar ao lado do outro*/
     border: 2px solid blue;
 }
 
