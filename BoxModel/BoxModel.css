@@ -17,4 +17,5 @@ p {
 
 span {
     border:  1px solid pink;
+    display: block; /*coloca um span abaixo do outro*/
 }
