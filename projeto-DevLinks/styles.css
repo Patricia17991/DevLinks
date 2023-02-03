@@ -1,5 +1,5 @@
 body {
    background-image: url(./assets/bg-mobile.jpg);
    background-repeat: no-repeat;
-   background-position: center; /*posicionando ao centro*/
+   background-position: top center; /*posicionando ao centro*/
 }
