@@ -1,5 +1,10 @@
 body {
-    background: violet;
+    background: black;
     color: green;
     /*comment: conect por link o css com o html*/
+}
+
+a {
+    text-decoration: none;
+    /*tira a estilização padrão da tag 'a', tag de link*/
 }
