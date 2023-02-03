@@ -18,3 +18,7 @@ img {
     heght: 100px; /*altura*/
     /*tamanho da imagem*/
 }
+
+#paragrafo {
+    /*referenciamos o id que foi colocado lá na tag <p> no html dessa forma*/
+}
