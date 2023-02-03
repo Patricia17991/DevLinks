@@ -19,6 +19,10 @@ img {
     /*tamanho da imagem*/
 }
 
-#paragrafo {
+#id-no-paragrafo {
     /*referenciamos o id que foi colocado lá na tag <p> no html dessa forma*/
+}
+
+.class-no-paragrafo {
+    /*referenciamos a class*/
 }
