@@ -2,6 +2,6 @@ body {
    background-image: url(./assets/bg-mobile.jpg);
    background-repeat: no-repeat;
    background-position: top center; /*posicionando ao centro*/
-   background-size: cover;/*cobre todo o espaço visível*/
+   background-size: cover;/*preenche todo o espaço visível*/
 
 }
