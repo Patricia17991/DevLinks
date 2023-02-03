@@ -12,3 +12,9 @@ a {
 }
 
 /*O grande segredo do css é descobrir quais são as propriedades e os seus valores para conseguir estilizar uma página web*/
+
+img {
+    width: 300px;/*largura*/
+    heght: 100px; /*altura*/
+    /*tamanho da imagem*/
+}
