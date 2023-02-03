@@ -1,5 +1,5 @@
 body {
-    background: black;
+    background: black;/*cor de fundo*/
     color: green;
     /*comment: conect por link o css com o html*/
 }
@@ -7,4 +7,6 @@ body {
 a {
     text-decoration: none;
     /*tira a estilização padrão da tag 'a', tag de link*/
+
+    color: green;/*cor de fonte*/
 }
