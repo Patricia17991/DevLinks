@@ -1,7 +1,10 @@
 body {
+   /*
    background-image: url(./assets/bg-mobile.jpg);
    background-repeat: no-repeat;
    background-position: top center; /*posicionando ao centro*/
-   background-size: cover;/*preenche todo o espaço visível*/
+   /*background-size: cover;/*preenche todo o espaço visível*/
 
+ /*agrupamento de todo o código acima em um só*/
+   background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
 }
