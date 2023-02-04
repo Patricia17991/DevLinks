@@ -21,7 +21,10 @@ body {
    margin: auto;
 }
 
-#profile img{
-   width: 112px;
-   /*geralmente no css não precisamos definir a altura, ela segue o conteúdo da página (a altura é fluída)*/
+#profile img {
+   width: 112px;    /*geralmente no css não precisamos definir a altura, ela segue o conteúdo da página*/
+   
+   /*alinhando a img ao centro*/
+   margin: auto;
+   
 }
