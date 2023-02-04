@@ -15,7 +15,8 @@ body {
    width: 360px;
    border: 1px solid red;
 
-   /*alinhando caixa ao centro*/
+   /*alinhando caixa ao centro
    margin-right: auto;
-   margin-left: auto;
+   margin-left: auto;*/
+   margin: auto;
 }
