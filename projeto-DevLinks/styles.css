@@ -22,10 +22,9 @@ body * {
 }
 
 #container {
-   height: 712px;
    width: 360px;
    border: 1px solid red;
-
+   padding: 100px;
    /*alinhando caixa ao centro
    margin-right: auto;
    margin-left: auto;*/
