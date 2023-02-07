@@ -24,6 +24,7 @@ body * {
 #container {
    width: 360px;
    border: 1px solid red;
+   padding-top: 56px; 
    
    /*alinhando caixa ao centro
    margin-right: auto;
