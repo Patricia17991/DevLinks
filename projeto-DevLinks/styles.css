@@ -24,12 +24,12 @@ body * {
 #container {
    width: 360px;
    border: 1px solid red;
-   padding-top: 56px; 
+   margin-top: 56px; /*ou padding: 56px*/
    
    /*alinhando caixa ao centro
    margin-right: auto;
    margin-left: auto;*/
-   margin: auto;
+   margin: 56px auto 0px;
 }
 
 #profile {
