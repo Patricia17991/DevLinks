@@ -12,7 +12,7 @@ body {
 
 body * {
   font-family: 'Inter', sans-serif;
-   color: #ffffff;
+  color: #ffffff;
 }
 
 #container {
@@ -37,4 +37,10 @@ body * {
    /*alinhando a img ao centro*/
    /*margin: auto;
    /*display: block;*/
+}
+
+#profile p {
+  font-weight: 500; /*peso da fonte*/
+  font-size: 16px; /*tamanho da fonte - por padrão é 16px então é opcional colocar neste caso*/
+  line-height: 24px; /*altura da linha*/
 }
