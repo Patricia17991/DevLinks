@@ -21,11 +21,15 @@ body {
    margin: auto;
 }
 
+#profile {
+  /*segunda forma de alinhar elemento ao centro*/
+  text-align: center;
+}
+
 #profile img {
    width: 112px;    /*geralmente no css não precisamos definir a altura, ela segue o conteúdo da página*/
    
    /*alinhando a img ao centro*/
-   margin: auto;
-   display: block;
-
+   /*margin: auto;
+   /*display: block;*/
 }
