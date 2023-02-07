@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*a medida do tamanho da caixa*/
+}
+
 body {
    /*
    background-image: url(./assets/bg-mobile.jpg);
