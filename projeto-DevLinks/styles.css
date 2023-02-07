@@ -26,5 +26,6 @@ body {
    
    /*alinhando a img ao centro*/
    margin: auto;
-   
+   display: block;
+
 }
