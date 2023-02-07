@@ -10,6 +10,10 @@ body {
    
 }
 
+body * {
+  font-family: 'Inter', sans-serif;
+}
+
 #container {
    height: 712px;
    width: 360px;
