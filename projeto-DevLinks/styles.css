@@ -59,10 +59,10 @@ ul {
 
 ul li a {
   display: flex;
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   /*align-items: center; deixa os elementos no topo*/
   padding: 16px 24px;
+  background: rgba(255, 255, 255, 0.1);
 }
 /*o li sempre ocupa 100% do espaço da caixa*/
