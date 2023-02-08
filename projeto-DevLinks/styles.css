@@ -60,5 +60,6 @@ ul {
 ul li a {
   display: flex;
   border: 1px solid red;
+  display: flex;
 }
 /*o li sempre ocupa 100% do espaço da caixa*/
