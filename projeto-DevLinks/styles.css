@@ -63,5 +63,6 @@ ul li a {
   display: flex;
   justify-content: center;
   /*align-items: center; deixa os elementos no topo*/
+  padding: 16px 24px;
 }
 /*o li sempre ocupa 100% do espaço da caixa*/
