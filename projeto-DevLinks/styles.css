@@ -63,11 +63,19 @@ ul li a {
   display: flex;
   justify-content: center;
   /*align-items: center; deixa os elementos no topo*/
+
   padding: 16px 24px;
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 8px; /*arredondamento das bordas*/
+
   backdrop-filter: blur(4px); /*embaça levemente o elemento*/
   -webkit-backdrop-filter: blur(4px);/*em algumas versões de browsers sem suporte precisa usar o webkit*/
+  
+  text-decoration: none;
+  /*text-decoration: line-through; risca uma linha no texto e o overline que fica uma linha em cima do texto*/
+  font-weight: 500;
+
 }
 /*o li sempre ocupa 100% do espaço da caixa*/
+
