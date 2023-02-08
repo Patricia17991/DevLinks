@@ -53,6 +53,8 @@ body * {
 /*links - lista*/
 ul {
   list-style: none; /*estilo da lista*/
+  flex-direction: column;
+  gap: 8px; /*coloca espaço entre os elementos*/
 }
 
 ul li a {
