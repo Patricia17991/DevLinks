@@ -65,5 +65,6 @@ ul li a {
   /*align-items: center; deixa os elementos no topo*/
   padding: 16px 24px;
   background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
 }
 /*o li sempre ocupa 100% do espaço da caixa*/
