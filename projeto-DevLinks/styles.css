@@ -76,6 +76,12 @@ ul li a {
   /*text-decoration: line-through; risca uma linha no texto e o overline que fica uma linha em cima do texto*/
   font-weight: 500;
 
+  transition: all .5s;
+
 }
 /*o li sempre ocupa 100% do espaço da caixa*/
 
+ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1.5px solid white;
+}
