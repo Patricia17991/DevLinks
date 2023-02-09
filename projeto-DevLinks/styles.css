@@ -57,6 +57,7 @@ ul {
   gap: 16px; /*coloca espaço entre os elementos*/
   display: flex;
   flex-direction: column;
+  padding: 24px 0;
 }
 
 ul li a {
@@ -84,4 +85,13 @@ ul li a {
 ul li a:hover {
   background-color: rgba(255, 255, 255, 0.05);
   border: 1.5px solid white;
+}
+
+/*social links*/
+#social-links {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  padding: 24px 0;
+  font-size: 24px;
 }
