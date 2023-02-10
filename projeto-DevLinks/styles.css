@@ -4,6 +4,20 @@
   box-sizing: border-box; /*a medida do tamanho da caixa medida pela borda*/
 }
 
+/*variáveis css*/
+:hoot { /*por padrão acabamos pegando o root*/
+  --text-color: white;
+  --bg-url: url(./assets/bg-mobile.jpg);
+  --stroke-color: rbga(255, 255, 255, 0.5);
+
+}
+
+.light {
+  --text-color: black;
+  --bg-url: url(./assets/bg-mobile-light.jpg);
+  --stroke-color: rbga(0, 0, 0, 0.5);
+}
+
 body {
    /*
    background-image: url(./assets/bg-mobile.jpg);
@@ -12,13 +26,13 @@ body {
    /*background-size: cover;/*preenche todo o espaço visível*/
 
  /*agrupamento de todo o código acima em um só*/
-   background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+   background: var(--bg-url) no-repeat top center/cover;
    
 }
 
 body * {
   font-family: 'Inter', sans-serif;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 #container {
@@ -68,7 +82,7 @@ ul li a {
 
   padding: 16px 24px;
   background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid var(--stroke-color);
   border-radius: 8px; /*arredondamento das bordas*/
 
   backdrop-filter: blur(4px); /*embaça levemente o elemento*/
@@ -84,7 +98,7 @@ ul li a {
 
 ul li a:hover {
   background-color: rgba(255, 255, 255, 0.05);
-  border: 1.5px solid white;
+  border: 1.5px solid var(--text-color);
 }
 
 /*social links*/
