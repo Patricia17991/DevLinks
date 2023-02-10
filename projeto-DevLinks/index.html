@@ -1,65 +1,86 @@
-<!DOCTYPE html> <!--define o documento html5-->
-<html lang="pt-BR" class="light"><!--elemento raiz/hoot ou documento html (ele possui o atributo de linguagem o lang)-->
-<head><!--tag filha-->
-    <!--fontes-->
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet"/>
-    
-    <meta charset="UTF-8"/><!--congigurações metas do próprio documento (define os conjuntos de caracteres)-->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/><!--compatibilidade com browsers antigos-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/><!--define a largura do site, adaptável ao dispositivo-->
-    <link rel="stylesheet" href="styles.css"/><!--linkando o css ao html-->
-    <title>DevLinks</title><!--título da página-->
-</head>
-<body><!--corpo do documento html (tag filha da tag pai que é o html)-->
-    <div id="container">
-       <div id="profile">
-        <img src="./assets/avatar.png" alt="Foto de Patrícia Lima, usando óculos, blusa preta, batom vermelho e fones de ouvido.">
-        <p>@patricialima</p>
-       </div>
-      
-       <div id="switch">
-        <button>
-          
-        </button>
-        <span></span>
-       </div>
+<!DOCTYPE html><!--define o documento html5-->
+<html lang="pt-br"><!--elemento raiz/hoot ou documento html (ele possui o atributo de linguagem o lang)-->
+  <head><!--tag filha-->
+      <!--fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
 
-       <ul><!--lista-->
-          <li><!--item da lista-->
-            <a href="#">Inscrever-se no NLW</a>
-          </li>
-          <li>
-            <a href="#">Baixar meu e-book</a>
-          </li>
-          <li>
-            <a href="https://github.com/Patricia17991" target=""_blanck>Ver meu portfólio</a>
-          </li>
-          <li>
-            <a href="#">Conheça o Explorer</a>
-          </li>
-       </ul>
-       <div id="social-links">
-          <a href="https://github.com/Patricia17991" target="_blank">
-             <ion-icon name="logo-github"></ion-icon>
-          </a>
-          <a href="https://www.instagram.com/patricia_l.felismino_/" target="_blank">
-             <ion-icon name="logo-instagram"></ion-icon>
-          </a>
-          <a href="https://www.youtube.com/" target="_blank">
-             <ion-icon name="logo-youtube"></ion-icon>
-          </a>
-          <a href="https://www.linkedin.com/in/patricia-lima-felismino/" target="_blank">
-             <ion-icon name="logo-linkedin"></ion-icon>
-          </a>
-       </div>
-       <footer><!--rodapé geralmente feito com o footer-->
+    <meta charset="UTF-8" /><!--congigurações metas do próprio documento (define os conjuntos de caracteres)-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /><!--compatibilidade com browsers antigos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><!--define a largura do site, adaptável ao dispositivo-->
+    <title>DevLinks</title><!--título da página-->
+    <link rel="stylesheet" href="style.css" /><!--linkando o css ao html-->
+  </head>
+  <body><!--corpo do documento html (tag filha da tag pai que é o html)-->
+    <div id="container">
+      <div id="profile">
+        <img
+          src="./assets/avatar.png"
+          alt="Foto de Mayk Brito sorrindo, usando óculos e camisa preta, barba e fundo amarelo."
+        />
+        <p>@maykbrito</p>
+      </div>
+
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+
+      <ul><!--lista-->
+        <li><!--item da lista-->
+          <a href="#">Inscrever-se no NLW</a> <!--âncora/link-->
+        </li>
+
+        <li>
+          <a href="#">Baixar meu e-book</a>
+        </li>
+
+        <li>
+          <a href="https://github.com/maykbrito">Ver meu portfólio</a>
+        </li>
+
+        <li>
+          <a href="https://rocketseat.com.br/explorer" target="_blank"
+            >Conheça o Explorer</a
+          >
+        </li>
+      </ul>
+      <div id="social-links">
+        <a href="https://github.com/maykbrito" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+
+        <a href="https://instagram.com/maykbrito" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+
+        <a href="https://youtube.com/maykbrito" target="_blank">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+
+        <a href="https://linkedin.com/in/maykbrito" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+
+      <footer><!--rodapé geralmente feito com o footer-->
         Feito com ♥ pela <a href="https://rocketseat.com.br/">Rocketseat</a>
       </footer>
     </div>
 
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-</body>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="./script.js"></script>
+  </body>
 </html><!--a tag html é a tag pai-->
