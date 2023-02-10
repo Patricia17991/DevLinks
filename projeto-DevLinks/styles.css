@@ -11,6 +11,7 @@
   --stroke-color: rbga(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
+  --highlight-color: rbga(255, 255, 255, 0.2);
 }
 
 .light {
@@ -19,7 +20,7 @@
   --stroke-color: rbga(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
-
+  --highlight-color: rbga(0, 0, 0, 0.1);
 }
 
 body {
