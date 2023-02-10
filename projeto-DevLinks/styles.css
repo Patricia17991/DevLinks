@@ -49,6 +49,7 @@ body * {
    padding: 0 24px;
 }
 
+/*profile*/
 #profile {
   /*segunda forma de alinhar elemento ao centro*/
   text-align: center;
@@ -68,6 +69,15 @@ body * {
   font-weight: 500; /*peso da fonte*/
   font-size: 16px; /*tamanho da fonte - por padrão é 16px então é opcional colocar neste caso*/
   line-height: 24px; /*altura da linha*/
+}
+
+/*switch*/
+#switch button {
+  width: 32px;
+  height: 32px;
+  background: white url(./assets/moon-stars.svg) no-repeat center;
+  border: 0;
+  border-radius: 50%;
 }
 
 /*links - lista*/
