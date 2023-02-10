@@ -9,13 +9,14 @@
   --text-color: white;
   --bg-url: url(./assets/bg-mobile.jpg);
   --stroke-color: rbga(255, 255, 255, 0.5);
-
 }
 
 .light {
   --text-color: black;
   --bg-url: url(./assets/bg-mobile-light.jpg);
   --stroke-color: rbga(0, 0, 0, 0.5);
+  --surface-color: rgba(255, 255, 255, 0.1);
+
 }
 
 body {
@@ -81,7 +82,7 @@ ul li a {
   /*align-items: center; deixa os elementos no topo*/
 
   padding: 16px 24px;
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--surface-color);
   border: 1px solid var(--stroke-color);
   border-radius: 8px; /*arredondamento das bordas*/
 
