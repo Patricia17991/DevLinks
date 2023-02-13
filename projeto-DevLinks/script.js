@@ -1,14 +1,14 @@
 function toggleMode() {
+    //as instruções estão na ordem de execussão 
     const html = document.documentElement
     html.classList.toggle('light')//este toggle já existe no js e faz o que a função acima fez
 
     //condicional
-   // if(html.classList.contains('light')) {
-     // html.classList.remove('light')
-   // } else {
-    //    html.classList.add('light')
-   // }
-    //no html na lista de classe contém o light
+   if(html.classList.contains('light')) {
+     
+   } else {
+
+   }
 
 
     //pegar tag img
