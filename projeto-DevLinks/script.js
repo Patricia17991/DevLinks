@@ -3,17 +3,13 @@ function toggleMode() {
     const html = document.documentElement//pegando o html
     html.classList.toggle('light')//fazendo a troca das classes
 
-
-    //condicional
-   if(html.classList.contains('light')) {
-     
-   } else {
-
-   }
-
-
     //pegar tag img
+    const img = document.querySelector("#profile img")//seletor css para pegra a img usado p/ substituir img
 
-    //substituir a imagem (se tiver o light mode, adicionar a imagem light)
-    //se não tiver o light mode, manter a imagem do dark mode
+   //condicional - substituindo img
+   if(html.classList.contains('light')) {
+     //se tiver light mode, adicionar a img light
+   } else {
+     //se estiver sem o light mode, manter a img normal
+   }
 }
