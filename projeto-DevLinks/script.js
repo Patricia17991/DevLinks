@@ -1,7 +1,8 @@
 function toggleMode() {
     //as instruções estão na ordem de execussão 
-    const html = document.documentElement
-    html.classList.toggle('light')//este toggle já existe no js e faz o que a função acima fez
+    const html = document.documentElement//pegando o html
+    html.classList.toggle('light')//fazendo a troca das classes
+
 
     //condicional
    if(html.classList.contains('light')) {
