@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; /*a medida do tamanho da caixa medida pela borda*/
+  box-sizing: border-box;
 }
 
 :root {
@@ -25,14 +25,6 @@
 }
 
 body {
-  /*
-   background-image: url(./assets/bg-mobile.jpg);
-   background-repeat: no-repeat;
-   background-position: top center; /*posicionando ao centro*/
-   /*background-size: cover;/*preenche todo o espaço visível*/
-
- /*agrupamento de todo o código acima em um só*/
-  
   background: var(--bg-url) no-repeat top center/cover;
   height: 100vh;
 }
@@ -47,35 +39,29 @@ body * {
   max-width: 588px;
   margin: 56px auto 0px;
   padding: 0 24px;
-  /*alinhando caixa ao centro
-   margin-right: auto;
-   margin-left: auto;*/
 }
 
 /* profile */
-#profile {  /*segunda forma de alinhar elemento ao centro*/
+#profile {
   text-align: center;
   padding: 24px;
 }
 
 #profile img {
-  width: 112px; /*geralmente no css não precisamos definir a altura, ela segue o conteúdo da página*/
-   /*alinhando a img ao centro*/
-   /*margin: auto;
-   /*display: block;*/
+  width: 112px;
 }
 
 #profile p {
-
-  font-weight: 500; /*peso da fonte*/
-  line-height: 24px; /*tamanho da fonte - por padrão é 16px então é opcional colocar neste caso*/
-  margin-top: 8px; /*altura da linha*/
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 8px;
 }
 
 /* switch */
 #switch {
   position: relative;
   width: 64px;
+
   margin: 4px auto;
 }
 
@@ -90,15 +76,9 @@ body * {
   top: 50%;
   left: 0;
   z-index: 1;
-  transform: translateY(-50%);/*move o elemento para cima ou para baixo*/
+  transform: translateY(-50%);
 
   animation: slide-back 0.2s;
-}
-
-/*trocando para o light mode*/
-.light switch button {
-  right: 0;
-  left: initial; /*left que volta para a sua maneira inicial*/
 }
 
 .light #switch button {
@@ -122,11 +102,11 @@ body * {
 
 /* links */
 ul {
-  list-style: none; /*estilo da linha*/
+  list-style: none;
 
   display: flex;
   flex-direction: column;
-  gap: 16px; /*espaço entre os elementos*/
+  gap: 16px;
 
   padding: 24px 0;
 }
@@ -135,26 +115,21 @@ ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
-  /*align-items: center; deixa os elementos no topo*/
 
-  
   padding: 16px 24px;
 
   background: var(--surface-color);
   border: 1px solid var(--stroke-color);
-  border-radius: 8px; /*arredondamento de bordas*/
+  border-radius: 8px;
 
-  backdrop-filter: blur(4px);/*embaça levemente o elemento*/
-  -webkit-backdrop-filter: blur(4px);/*em algumas versões de browsers sem suporte precisa usar o webkit*/
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 
-  text-decoration: none;  /*text-decoration: line-through; risca uma linha no texto e o overline que fica uma linha em cima do texto*/
-
+  text-decoration: none;
   font-weight: 500;
 
   transition: background 0.2s;
 }
-/*o li sempre ocupa 100% do espaço da caixa*/
-
 
 /* pseudo-selector */
 ul li a:hover {
@@ -179,7 +154,7 @@ ul li a:hover {
   padding: 16px;
 
   transition: background 0.2s;
-  border-radius: 50%;/*circulo perfeito*/
+  border-radius: 50%;
 }
 
 #social-links a:hover {
